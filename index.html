@@ -6,11 +6,15 @@
         <meta content="true" name="HandheldFriendly">
         <meta content="width" name="MobileOptimizer"/>
         <meta content="yes" name="apple-mobile-web-app-capable"/>
-        <link  href="/css/style.css"/>
+        <link rel="stylesheet"  href="./style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <title> CV  </title>
 <body>
     <div class="container">
-        <img src="/Enterprise/JavaScriptFiles/rsschool-cv/img/01.jpg" alt="photo">
+        <div class="container-1">
+        <img class="profile-photo" src="/Enterprise/JavaScriptFiles/rsschool-cv/img/01.jpg" alt="photo" width="200px">
         <div class="name">Inessa Babenko</div>
         <div class="position"> Front-end developer</div>
         <div class="big-white-text">Skills</div>
@@ -29,7 +33,7 @@
             </ul>
         </div>
     </div>
-    <div>
+    <div class="container-2">
         <div class="big-black-text">Education</div>
         <div class="middle-black-text">Siberian University of International Relations</div>
         <div class="black-text">Qualified in international relations</div>
@@ -52,14 +56,15 @@
 
             I would like for you to write me a function that when given a number (n) returns the n-th number in the Fibonacci Sequence.</div>
         <div class="code"><code>function nthFibo(n) {
-            let Fibo = [0, ];
-            let f = 1;
-            for (let i=0; i <= n; i++) {
-              Fibo.push(f)
-              f = Fibo[0+i] + Fibo[1+i];
-            };
-            return Fibo[n-1];
+            let Fibo = [0, ]; <br/>
+            let f = 1;<br/>
+            for (let i=0; i <= n; i++) {<br/>
+              Fibo.push(f)<br/>
+              f = Fibo[0+i] + Fibo[1+i];<br/>
+            };<br/>
+            return Fibo[n-1];<br/>
           }</code></div>
     </div>
+</div>
 </body>
 </html>

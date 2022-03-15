@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before, *:after{
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
+:focus,:active{outline:none;}
+a:focus, a:active{outline:none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+    height: 100%;
+    width:100%;
+    font-size:100%;
+    line-height:1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea{font-family: inherit;}
+
+input:-ms-clear{display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h33,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/*----------------------*/
+body {
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px 200px 0 200px;
+}
+.container{
+    display: flex;
+   flex-direction: row;
+}
+.container-1{
+    padding: 10px 10px 10px 10px;
+    background-color:#1f2a41;
+}
+.container-2 {
+    padding: 0px 10px 10px 10px;
+}
+.profile-photo{
+    padding: 20px;
+    width:200px;
+    border-radius: 50%;
+}
+.name {
+    font-size: 30px;
+    color:#fdfdfc;
+}
+.position {
+    color:#fdfdfc;
+}
+.big-white-text {
+    color:#fdfdfc;
+}
+.skills {
+    color:#fdfdfc;
+}
+.contact {
+    color:#fdfdfc;
+}
+.big-black-text {
+    margin: 0 0 15px -22px;
+    padding: 4px;
+    background-color: #f0c30e;
+    height: 30px;
+    text-align: center;
+}
+.middle-black-text {
+}
+.black-text {
+}
+.code {
+}
