@@ -8,7 +8,7 @@
         <meta content="yes" name="apple-mobile-web-app-capable"/>
         <link rel="stylesheet"  href="./style.css"/>
         <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-        <title>   </title>
+        <title> CV  </title>
 <body>
     <div class="wrapper">
         <div>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                             <p>Discord: <br>
-                               <img id="discord-logo" src="./images/discord-logo--v1.png">
+                               <img id="discord-logo" src="./images/discord-logo--v1.png" alt="discord logo">
                                 <a>bainess#8556</a>
                             </p>
                             <p> Email: <br> 
@@ -49,6 +49,8 @@
                             <div class="yellow-block"></div>
                             <h2 id="elem-education">Education</h2>
                             </div>
+                            <p> 2022-...<br>
+                            Rolling Scopes School, JavaScript</p>
                             <p>2005-2010 <br>
                             Siberian Institute of International Relations<br>
                         International Relations</p>  
@@ -115,12 +117,12 @@
                         <div class="yellow-block-2"></div>
                         <h3 id="elem-code">Code Example</h3>
                         </div>
-                        <code>
-                            <pre>
+                        <pre>
+                        <code>    
 function duplicateEncode(word){
     let wordArr = word.toLowerCase().split("");
     let checkDoubled = {};
-    for (let i = 0; i < wordArr.length; i++) {
+    for (let i = 0; i &lt; wordArr.length; i++) {
         if ( wordArr[i] in checkDoubled) {
             checkDoubled[wordArr[i]] += 1;
             } else {
@@ -130,8 +132,8 @@ function duplicateEncode(word){
     wordArr = wordArr.map(el => (checkDoubled[el] > 1) ?
     el = ")" : el ="(")
     return wordArr.join("")}
-                            </pre>
                         </code>
+                        /pre>
                     </div>
                     <div>
                         <div class="para-block">
@@ -146,7 +148,7 @@ function duplicateEncode(word){
                             </a>                                
                             </div>                            
                             <div><a href="https://bainess.github.io/RSS-Virtual-keyboard/src/index.html">
-                                <img class='project' id='keyboard' src="./images/Keyboard.JPG">
+                                <img class='project' id='keyboard' src="./images/Keyboard.JPG" alt="keyboard">
                                 <h4>Virtual Keyboard</h4>
                             </a>
                             </div>
@@ -157,13 +159,13 @@ function duplicateEncode(word){
         <footer>
             <div >
                 <a class="gh-link" href="https://github.com/bainess">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="40px" height="40px">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="40" height="40" alt="github pic">
                     <p>My Github</p>
                 </a>
             </div>
             <div class="year">2022</div>
             <div>
-                <img class="rs-school" src="./images/rs_school_js.svg" alt="rsschool logo"/>
+                <a href='https://rs.school/js/'><img class="rs-school" src="./images/rs_school_js.svg" alt="rsschool logo"/></a>
             </div>
         </footer>
     </div>
