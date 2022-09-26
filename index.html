@@ -9,5 +9,166 @@
         <link rel="stylesheet"  href="./style.css"/>
         <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
         <title> CV  </title>
-<body></body>
+<body>
+    <div class="wrapper">
+        <div>
+        <header>
+            <nav>
+                <ul>
+                    <li><a  class='menu-links' data-goto="" href='#elem-about'>About me</a></li>
+                    <li><a class='menu-links' data-goto="" href='#elem-skills'>Skills</a></li>
+                    <li><a  class='menu-links' data-goto="" href='#elem-strength'>Strength</a></li>
+                    <li><a class='menu-links' data-goto="" href='#elem-code'>Code</a></li>
+                    <li><a class='menu-links' data-goto="" href='#elem-projects'>Projects</a></li>
+                    <li><a class='menu-links' data-goto="" href='#elem-contacts'>Contacts</a></li>
+                    <li><a class='menu-links' data-goto="" href='#elem-education'>Education</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+                <div class="main-info__wrapper">
+                    <img class='photo' src="./images/01.jpg" alt="photo">
+                    <div class="main-info">
+                        <div class="main-info-wrapper">
+                            <div class="yellow-block"></div>
+                        <div>
+                            <h2 id="elem-contacts">Contacts</h2>
+                        </div>
+                    </div>
+                            <p>Discord: <br>
+                               <img id="discord-logo" src="./images/discord-logo--v1.png" alt="discord logo">
+                                <a>bainess#8556</a>
+                            </p>
+                            <p> Email: <br> 
+                                <a class='email' href="mailto:iness.tt.eln@gmail.com"> &#9993; iness.tt.eln@gmail.com</a></p>
+                            <p>Address: <br> 
+                                &#128506; Novosibirsk, Russia</p>
+                        
+                        <div>
+                            <div class="main-info-wrapper">
+                            <div class="yellow-block"></div>
+                            <h2 id="elem-education">Education</h2>
+                            </div>
+                            <p> 2022-...<br>
+                            Rolling Scopes School, JavaScript</p>
+                            <p>2005-2010 <br>
+                            Siberian Institute of International Relations<br>
+                        International Relations</p>  
+                        <p>2012-2015 <br>
+                        Novosibirks State Pedagogical University<br>
+                        English Teacher</p>                          
+                        </div>                       
+                    </div>
+                </div>
+                <div class="detailed-info">
+                    <div class>
+                        <h1> Inessa <br>
+                        Babenko</h1>
+                        <h3 class="position">Junior Front-End Developer</h3>
+                    </div>
+                    <div>
+                        <div class="para-block">
+                            <div class="yellow-block-2"></div>
+                            <h3 id="elem-about">About me</h3>
+                        </div>
+                    <p> I’ve worked as a teacher of English for 10 years. The last school required to use some
+                         elements of coding (html, JS) in order to create exercises, so it happened that I had some 
+                        experience in coding when decided that I would like to try something new. And here I am.</p>
+                    </div>
+                    <div>
+                        <div class="para-block">
+                            <div class="yellow-block-2"></div>
+                            <h3 id="elem-skills">Skills</h3>
+                        </div>
+                        <ul class="lists">
+                            <li> Figma, Git                       
+                            </li>
+                            <li> HTML/HTML5, CSS3/SCSS, BEM                       
+                            </li>
+                            <li>  JavaScript/ES6                      
+                            </li>
+                            <li> English Advanced / IELTS 7.0                      
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="para-block">
+                            <div class="yellow-block-2"></div>
+                            <h3 id="elem-strength">
+                                Key strengths
+                            </h3>
+                        </div>
+                        <ul class="lists">
+                            <li>Hardworking</li>
+                            <li>     
+                                Responsible                   
+                            </li>
+                            <li> 
+                                Quick learner                       
+                            </li>
+                            <li>
+                                Goal-oriented
+                            </li>
+                            <li>Diligent</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="para-block">
+                        <div class="yellow-block-2"></div>
+                        <h3 id="elem-code">Code Example</h3>
+                        </div>
+                        <pre>
+                        <code>    
+function duplicateEncode(word){
+    let wordArr = word.toLowerCase().split("");
+    let checkDoubled = {};
+    for (let i = 0; i &lt; wordArr.length; i++) {
+        if ( wordArr[i] in checkDoubled) {
+            checkDoubled[wordArr[i]] += 1;
+            } else {
+                checkDoubled[wordArr[i]] = 1;
+                    }
+        } 
+    wordArr = wordArr.map(el => (checkDoubled[el] > 1) ?
+    el = ")" : el ="(")
+    return wordArr.join("")}
+                        </code>
+                    </pre>
+                    </div>
+                    <div>
+                        <div class="para-block">
+                            <div class="yellow-block-2"></div>
+                            <h3 id="elem-projects">My projects</h3>
+                        </div>
+                        <div class="projects">
+                            <div>
+                                <a href="https://rolling-scopes-school.github.io/bainess-JSFE2022Q1/shelter/pages/main/index.html">
+                                <img class='project' id='shelter' src="./images/shelter.JPG" alt="shlter pic">
+                                <h4> Shelter</h4>
+                            </a>                                
+                            </div>                            
+                            <div><a href="https://bainess.github.io/RSS-Virtual-keyboard/src/index.html">
+                                <img class='project' id='keyboard' src="./images/Keyboard.JPG" alt="keyboard">
+                                <h4>Virtual Keyboard</h4>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <footer>
+            <div >
+                <a class="gh-link" href="https://github.com/bainess">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="40" height="40" alt="github pic">
+                    <p>My Github</p>
+                </a>
+            </div>
+            <div class="year">2022</div>
+            <div>
+                <a href='https://rs.school/js/'><img class="rs-school" src="./images/rs_school_js.svg" alt="rsschool logo"/></a>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
 </html>
