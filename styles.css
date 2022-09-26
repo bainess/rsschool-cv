@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+    *,*:before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    :focus,:active{outline:none;}
+    a:focus, a:active{outline:none;}
+    
+    nav,footer,header,aside{display: block;}
+    
+    html, body{
+    height: 100%;
+    width:100%;
+    font-size:100%;
+    line-height:1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    input, button, textarea{font-family: inherit;}
+    
+    input:-ms-clear{display: none;}
+    button {cursor: pointer;}
+    button::-moz-focus-inner{padding:0;border:0;}
+    a,a:visited{text-decoration:none;}
+    a:hover{text-decoration: none;}
+    ul li{list-style: none;}
+    img{vertical-align: top;}
+    
+    h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+    
+    /*................................*/
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;500;600;700;800;900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+    @font-face {
+        font-family: Abril;
+        src: url(./fonts/AbrilFatface-Regular.ttf);
+    }
+    @font-face{
+        font-family: Fresca;
+        src:url(./fonts/Fresca-Regular.ttf)
+    }
+
+    .wrapper{
+    margin: 0 auto;
+    width: 900px;
+    /* background-color: #FFEF82; */
+}
+header{
+    position:sticky;
+    top:0;
+}
+nav>ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border:1px solid #EFD345;
+    background-color: #EFD345;
+    font-family: Montserrat;
+    font-size: 22px;
+    height: 50px;
+}
+nav>ul>li:hover{
+    text-shadow: 2px 2px 4px #82954B;
+}
+main{
+    display:flex;
+    justify-content: flex-start;
+}
+.main-info{
+    background-color: #82954B;
+    width: 350px;
+}
+.photo{
+    width: 350px;
+}
+.main-info-wrapper{
+    display: flex;
+    justify-content: start;
+    background-color: #BABD42; 
+    width: 350px;
+    height:100%;
+}
+.main-info__wrapper{
+    background-color: #82954B;
+}
+.yellow-block{
+    width: 20px;
+    height:30px;
+    background-color: #EFD345;
+}
+h2{
+    padding: 2px 0px 0 34px;
+ font-family: Montserrat;
+ font-weight: 700;
+ font-size: 24px;
+}
+p {
+    padding-left: 15px;
+    font-family: Montserrat;
+    font-weight:500;
+    font-style: italic ;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 35px;
+}
+#discord-logo{
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+h1{
+    font-family: 'Abril', sans-serif;
+    font-size: 70px;
+    font-weight: normal;
+    padding: 45px 0 15px 70px;
+    letter-spacing: 0.15em;
+
+}
+a, a:hover, a:active, a:visited{
+    color:black;
+}
+h3{
+    font-family: Fresca;
+    font-size: 30px;
+    padding: 2px 0 0 70px;
+}
+.position{
+    text-decoration: underline;
+}
+.detailed-info{
+    width:550px;
+    height:100%;
+}
+.para-block{
+    display: flex;
+    flex-direction: row;
+    width:550px;
+    background-color: #BABD42;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+.yellow-block-2{
+    height:40px;
+    width: 40px;
+    background-color:#EFD345;
+
+}
+.lists{
+    font-family:Fresca;
+    font-size: 25px;
+    padding-left: 30px;
+}   
+.lists>li{
+    padding: 15px 0;
+}
+.lists>li::before{
+    content:'•'
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+.project{
+    transition: 1s;
+}
+.project:hover{
+    transform: scale(1.2);
+    
+}
+#shelter{
+    width: 150px;
+}
+#keyboard{
+    width: 150px;
+}
+h4{
+    padding: 10px 0 0 0;
+    font-family: Abril;
+}
+footer{
+    background-color: #FFEF82;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    height: 70px;
+}
+.gh-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.year{
+    font-weight: 500;
+    font-size: 20px;
+}
+.rs-school{
+    width:150px;
+}
